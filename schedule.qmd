@@ -6,7 +6,7 @@ toc-location: right
 
 ## 0900 - 1030
 
-[Introduction and Principles of reproducibility](materials/principles-of-reproducibility.qmd) s
+[Introduction and Principles of reproducibility](materials/principles-of-reproducibility.qmd) 
 
 -   Introduction 
 -   Principles of reproducibility 
