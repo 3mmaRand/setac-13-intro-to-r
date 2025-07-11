@@ -4,24 +4,31 @@ toc: true
 toc-location: right
 ---
 
-## 9.30am – 11am: Session 1 90 mins
+## 0900 - 1030
 
-[Introduction and Principles of reproducibility](materials/principles-of-reproducibility.qmd) 20 mins
+[Introduction and Principles of reproducibility](materials/principles-of-reproducibility.qmd) s
 
 -   Introduction 
 -   Principles of reproducibility 
 
-[Introduction to R and RStudio](materials/introduction-to-r-and-rstudio.qmd) 70 mins
+[Introduction to R and RStudio](materials/introduction-to-r-and-rstudio.qmd) 
 
 -  Finding your way round RStudio
 -  Typing in data and plotting it
+
+## 1030 - 1050 Break 20 mins
+
+## 1050 – 1200
+
+[Introduction to R and RStudio](materials/introduction-to-r-and-rstudio.qmd) continued
+
 -  Importing data
 -  Working directories and file paths
 
 
-## 11am – 11.30am: break
 
-## 11.30am – 12.15pm: Session 2 45 mins
+## Optional material
+
 
 [Data manipulation](materials/data-manipulation.qmd) 
 
@@ -30,8 +37,4 @@ toc-location: right
 -   Summarising
 -   Writing data to a file
 
-## 12.15pm – 1pm: lunch
-
-## 1pm – 2.30pm: Session 3 90 mins
-
-[Reproducible reports with Quarto](materials/reproducible-reports-with-quarto.qmd) 90 mins
+[Computational Analysis for Bioscientists](https://3mmarand.github.io/comp4biosci/)

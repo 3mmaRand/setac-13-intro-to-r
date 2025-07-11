@@ -6,21 +6,20 @@ date: last-modified
 date-format: D MMMM, YYYY
 
 website:
-  title: "White Rose Analytics 1: Reproducibility with R"
-  # google-analytics: "G-TVF95J593T"
+  title: "SETAC 2025: Introduction to Reproducibility with R"
   
   page-footer:
-    left: "Rand E (2025). White Rose Analytics 1: Reproducibility with R. <https://3mmarand.github.io/wr-analytics-1/>."
+    left: "Rand E (2025). SETAC 2025: Introduction to Reproducibility with R. <https://3mmarand.github.io/setac-13-intro-to-r/>."
     right:
       - icon: github
-        href: https://github.com/3mmaRand/wr-analytics-1
+        href: https://github.com/3mmaRand/setac-13-intro-to-r
         text: "Emma on GitHub"  
   navbar:
     background: light
     twitter-card: true
-    site-url: https://3mmarand.github.io/wr-analytics-1/
-    repo-url: https://github.com/3mmaRand/wr-analytics-1
-    issue-url: https://github.com/3mmaRand/wr-analytics-1/issues/new/choose
+    site-url: https://3mmarand.github.io/setac-13-intro-to-r/
+    repo-url: https://github.com/3mmaRand/setac-13-intro-to-r
+    issue-url: https://github.com/3mmaRand/setac-13-intro-to-r/issues/new/choose
     repo-actions: [edit, issue]
     page-navigation: true
     search: true
@@ -34,7 +33,7 @@ website:
     tools:
     right:
       - icon: github
-        href: https://github.com/3mmaRand/wr-analytics-1
+        href: https://github.com/3mmaRand/setac-13-intro-to-r
         text: "Emma on GitHub"
 
 execute:
@@ -51,7 +50,7 @@ format:
   html:
     css: styles.css
     link-external-newwindow: true
-    link-external-filter: '^(?:http:|https:)\/\/3mmarand\.github\.io\/wr-analytics-1'
+    link-external-filter: '^(?:http:|https:)\/\/3mmarand\.github\.io\/setac-13-intro-to-r'
     theme:
       light: [cosmo]
     code-copy: true
