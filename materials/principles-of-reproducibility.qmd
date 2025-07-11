@@ -4,10 +4,6 @@ toc: true
 toc-location: right
 ---
 
-```{r}
-#| echo: false
-library(tidyverse)
-```
 
 # Introduction
 
