@@ -67,8 +67,10 @@ machine please install the following prior to attending:
 ## Workshop Sessions
 
 1. Introduction & Principles
+
 2. R & RStudio Basics
-3.[Data Manipulation (Optional)
+
+3. Data Manipulation (Optional)
 
 
 ## Citation Information
