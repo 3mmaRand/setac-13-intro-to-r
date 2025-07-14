@@ -555,22 +555,24 @@ ggplot(data = cats, aes(x = coat, y = mass)) +
 
 ## 🔧 RStudio Interface
 
--   Script – Write and save your code (.R or .qmd files)
--   Console – Run commands and see immediate output
+-   Script – Where you write and save your code (.R or .qmd files)
+-   Console – Where commands are executed and immediate output appears
 -   Environment – Lists your objects and data
--   Files / Plots / Help – Manage files, view plots, read help docs
+-   Files / Plots / Help – Where you can manage files, view plots, read help docs
 
 ## 🧠 Core ideas
 
--   Assignment – Use \<- to store values: x \<- 5
+-   Assignment – Use `<-` to store values: `x <- 5`
 -   Vectors – One-dimensional data: `c(1, 2, 3)`
--   Data frames – Table-like structures:
-    `data.frame(name = c("A", "B"))` but made when data is imported
--   packages are loaded with `library()`
--   Use RStudio Projects and paths relative to the project folder so
+-   Dataframes – Table-like structures that are most widely used:
+    `data.frame(name = c("A", "B"))`
+-   Functions – Commands that perform actions: `mean(x)`, `ggplot()`
+-   Data import functions  read data from files to dataframes for analysis
+-   Packages like **`tidyverse`** are loaded with `library()`
+-   Always use RStudio Projects and paths relative to the project folder so
     your code is reproducible and portable
 
-## 📊 Plotting
+## 📊 Plotting with **`ggplot2`**
 
 -   Structure – `ggplot(data, aes(x, y)) + geom_*()`
 -   Common geoms – `geom_col()`, `geom_boxplot()`, `geom_point()`
