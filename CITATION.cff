@@ -1,0 +1,21 @@
+title: 
+  SETAC Student Conference 2025: Introduction to Reproducibility with R
+abstract: This workshop is designed for beginners with no prior experience in R or
+RStudio. It is suitable for environmental scientists, ecologists, and
+anyone interested in learning how to use R for reproducible research.
+authors:
+- affiliation: University of York
+  family-names: Emma Rand
+cff-version: 1.2.0
+date-released: '2025-07-14'
+doi: 10.5281/zenodo.15880793
+identifiers:
+- type: swh
+  value: swh:1:dir:e073fce0dcb6f392997ed445a88b0268fc1d00b9;origin=https://doi.org/10.5281/zenodo.15880792;visit=swh:1:snp:ee0fdfa3f24eecc0594c81301fefe7f56a21a554;anchor=swh:1:rel:dae5b63aef1d3b742eb5a8d20ba9939641e6b951;path=3mmaRand-setac-13-intro-to-r-418ccc5
+license:
+- cc-by-4.0
+message: If you use this material, please cite it using the metadata from this file.
+repository-code: https://github.com/3mmaRand/setac-13-intro-to-r/tree/v1.0.0
+title: '3mmaRand/setac-13-intro-to-r: 2025'
+type: course material
+version: v1.0.0
