@@ -91,7 +91,7 @@ div.csl-indent {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-73c2b114ecf4b9b936608c4f29ce1a4b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7eb33643cdc41a070876d4065ae674ae.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
@@ -216,7 +216,7 @@ div.csl-indent {
   <ul>
 <li><a href="#rstudio-interface" id="toc-rstudio-interface" class="nav-link" data-scroll-target="#rstudio-interface">🔧 RStudio Interface</a></li>
   <li><a href="#core-ideas" id="toc-core-ideas" class="nav-link" data-scroll-target="#core-ideas">🧠 Core ideas</a></li>
-  <li><a href="#plotting" id="toc-plotting" class="nav-link" data-scroll-target="#plotting">📊 Plotting</a></li>
+  <li><a href="#plotting-with-ggplot2" id="toc-plotting-with-ggplot2" class="nav-link" data-scroll-target="#plotting-with-ggplot2">📊 Plotting with <strong><code>ggplot2</code></strong></a></li>
   </ul>
 </li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
@@ -235,7 +235,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">11 July, 2025</p>
+      <p class="date">14 July, 2025</p>
     </div>
   </div>
   
@@ -680,20 +680,26 @@ Top Tip
 </section></section><section id="summary" class="level1"><h1>Summary</h1>
 <section id="rstudio-interface" class="level2"><h2 class="anchored" data-anchor-id="rstudio-interface">🔧 RStudio Interface</h2>
 <ul>
-<li>Script – Write and save your code (.R or .qmd files)</li>
-<li>Console – Run commands and see immediate output</li>
+<li>Script – Where you write and save your code (.R or .qmd files)</li>
+<li>Console – Where commands are executed and immediate output appears</li>
 <li>Environment – Lists your objects and data</li>
-<li>Files / Plots / Help – Manage files, view plots, read help docs</li>
+<li>Files / Plots / Help – Where you can manage files, view plots, read help docs</li>
 </ul></section><section id="core-ideas" class="level2"><h2 class="anchored" data-anchor-id="core-ideas">🧠 Core ideas</h2>
 <ul>
-<li>Assignment – Use &lt;- to store values: x &lt;- 5</li>
+<li>Assignment – Use <code>&lt;-</code> to store values: <code>x &lt;- 5</code>
+</li>
 <li>Vectors – One-dimensional data: <code>c(1, 2, 3)</code>
 </li>
-<li>Data frames – Table-like structures: <code>data.frame(name = c("A", "B"))</code> but made when data is imported</li>
-<li>packages are loaded with <code><a href="https://rdrr.io/r/base/library.html">library()</a></code>
+<li>Dataframes – Table-like structures that are most widely used: <code>data.frame(name = c("A", "B"))</code>
 </li>
-<li>Use RStudio Projects and paths relative to the project folder so your code is reproducible and portable</li>
-</ul></section><section id="plotting" class="level2"><h2 class="anchored" data-anchor-id="plotting">📊 Plotting</h2>
+<li>Functions – Commands that perform actions: <code>mean(x)</code>, <code><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot()</a></code>
+</li>
+<li>Data import functions read data from files to dataframes for analysis</li>
+<li>Packages like <strong><code>tidyverse</code></strong> are loaded with <code><a href="https://rdrr.io/r/base/library.html">library()</a></code>
+</li>
+<li>Always use RStudio Projects and paths relative to the project folder so your code is reproducible and portable</li>
+</ul></section><section id="plotting-with-ggplot2" class="level2"><h2 class="anchored" data-anchor-id="plotting-with-ggplot2">📊 Plotting with <strong><code>ggplot2</code></strong>
+</h2>
 <ul>
 <li>Structure – <code>ggplot(data, aes(x, y)) + geom_*()</code>
 </li>
